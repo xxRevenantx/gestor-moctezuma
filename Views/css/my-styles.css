@@ -1,0 +1,11 @@
+.contenedorCURP{
+    position: relative;
+}
+.load{
+    position:absolute;
+    z-index: 10;
+    right: 0px;
+    width: 30px;
+    top: 35px;
+    display: none;
+}

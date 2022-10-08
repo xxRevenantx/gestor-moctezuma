@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-cedula{
+width: 27.9cm;
+height: 21.6cm;
+/* background: gray; */
+
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+
+table{
+width: 100%;
+border-spacing: 0;
+}
+.datos-generales{
+    text-align: center;
+
+}
+table.tblEncabezado td{
+    border: transparent;
+    border: none;
+}
+
+.borde-r{
+    border-right: transparent;
+}
+.borde-l{
+    border-left: transparent;
+}
+.borde-b{
+    border-bottom: transparent;
+}
+.borde-t{
+    border-top: transparent;
+}
+
+.docText{
+    line-height: 5px;
+}
+
+
+table.datos {
+    width: 100%;
+}
+
+td{
+    border: 1px solid #000;
+    text-align: center;
+  
+}
+
+.pd{
+    padding: 5px;
+}
+td.requisitos{
+text-align: left;
+padding: 5px;
+
+}
+img.img{
+    width: 15px;
+}
+
+.borderbottom{
+    border-bottom: none;
+}
+
+
+.logo-cedula{
+margin-top: 0px;
+/* float: left; */
+/* background: #000; */
+}
+h3.cedulaInscripcion{
+    text-align: center;
+    margin: -33px auto 10px;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #000;
+    
+}
+
+
+
+.docText{
+    line-height: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+.bg{
+    background: #9AB94E;
+    font-weight: bold;
+   
+}
+
+.foto{
+    width: 115px;
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+.noborder{
+    font-size: 10px;
+    border: none;
+}
+.contenedorFecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bd{
+    border: 1px solid #000;
+   
+}
+.bd-r{
+    border-right: 1px solid #000;
+    padding: 8px 8px;
+}
+.dmy{
+    position: absolute;
+    top: 45px;
+    left: 72px;
+    font-weight: 500;
+   
+}
+
+.nombre{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 20px;
+   
+
+}
+.nombre span{
+    padding-left: 150px;
+}
+

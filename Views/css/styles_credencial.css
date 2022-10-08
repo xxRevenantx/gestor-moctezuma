@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,400&display=swap'); */
+
+@font-face {
+    font-family: coolvetica;
+    src: url(../fonts/coolvetica.otf) format('otf')
+
+  }
+
+
+body{
+    font-family: coolvetica, sans-serif;
+}
+.credencial_frontal, .credencial_trasera{
+    border: 1px solid #000;
+    background-size: cover; 
+    width: 8.6cm;
+    height: 5.4cm;
+}
+
+.credencial_trasera{
+    margin: -204px 0 0 326px; 
+  
+}
+
+.nombre,
+.matricula,
+.gradoGrupo,
+.telefono,
+.ciclo{
+    font-size: 8.5px;
+}
+
+.nombre{
+    margin: 75px 0 0 143px;
+    width: 55%;
+    
+}
+
+.matricula{
+    margin: 3px 0 0 143px;
+}
+.gradoGrupo{
+    margin: 3px 0 0 143px;
+}
+.telefono{
+    margin: 3px 0 0 143px;
+}
+
+.ciclo{
+    margin: 3px 0 0 143px;
+}
+
+
+.lN{
+    color: #006495;
+}
+
+.foto{
+    width: 2cm;
+    height: 2.5cm;
+    float: left;
+    margin: -85px 35px;
+    
+}
+
+.foto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* CREDENCIAL TRASERA*/
+
+.calle, 
+.colonia,
+.municipio,
+.entidad,
+.tutor{
+    font-size: 10px;
+    margin: 5px 70px ;
+ 
+}
+
+.calle{
+    margin-top: 30px;
+}
+
+.colonia{
+
+}
+
+.municipio{
+
+}
+
+.entidad{
+
+}
+
+.info{
+    font-size: 8px;
+    text-align: center;
+    padding: 30px 0 0 8px;
+}
